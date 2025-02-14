@@ -1,4 +1,3 @@
-
 import React from 'react';
 import './Header.css';
 import Typed from '../Typed'
@@ -21,9 +20,9 @@ const Header = props => {
         <Typed/>
         </p>
         <div className="buttons">
-          <a href="#projects">my portfolio</a>
+          <a href="https://drive.google.com/file/d/1SwJpq81N8s8g6mJZAMXZa-4Q8h5H7y1t/view?usp=sharing">My Resume</a>
           <a href="#contact">
-            get in touch
+            Get in touch
           </a>
         </div>
       </div>
