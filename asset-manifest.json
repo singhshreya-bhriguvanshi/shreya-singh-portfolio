@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shreya-singh-portfolio/static/css/main.f3a5e20b.css",
-    "main.js": "/shreya-singh-portfolio/static/js/main.43f9a833.js",
+    "main.js": "/shreya-singh-portfolio/static/js/main.87bca884.js",
     "static/js/453.d2e540b0.chunk.js": "/shreya-singh-portfolio/static/js/453.d2e540b0.chunk.js",
     "static/media/digital dashboard.png": "/shreya-singh-portfolio/static/media/digital dashboard.8b4f254ce6657ee77217.png",
     "static/media/BB logo.png": "/shreya-singh-portfolio/static/media/BB logo.e60a29a0c352f8da1ec1.png",
@@ -19,11 +19,11 @@
     "index.html": "/shreya-singh-portfolio/index.html",
     "static/media/envelope.svg": "/shreya-singh-portfolio/static/media/envelope.2da9f9f0571e695cc384.svg",
     "main.f3a5e20b.css.map": "/shreya-singh-portfolio/static/css/main.f3a5e20b.css.map",
-    "main.43f9a833.js.map": "/shreya-singh-portfolio/static/js/main.43f9a833.js.map",
+    "main.87bca884.js.map": "/shreya-singh-portfolio/static/js/main.87bca884.js.map",
     "453.d2e540b0.chunk.js.map": "/shreya-singh-portfolio/static/js/453.d2e540b0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f3a5e20b.css",
-    "static/js/main.43f9a833.js"
+    "static/js/main.87bca884.js"
   ]
 }
