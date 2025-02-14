@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/shreya-singh-portfolio/static/css/main.4e486a0c.css",
-    "main.js": "/shreya-singh-portfolio/static/js/main.e3e99730.js",
-    "static/js/453.d2e540b0.chunk.js": "/shreya-singh-portfolio/static/js/453.d2e540b0.chunk.js",
-    "static/media/digital dashboard.png": "/shreya-singh-portfolio/static/media/digital dashboard.8b4f254ce6657ee77217.png",
-    "static/media/pinterest clone.png": "/shreya-singh-portfolio/static/media/pinterest clone.5314e98b980fdc7e5f11.png",
-    "static/media/pragati.png": "/shreya-singh-portfolio/static/media/pragati.ce901fa3f33458828ea8.png",
-    "static/media/infosys.png": "/shreya-singh-portfolio/static/media/infosys.7aba4526a72cc6397884.png",
-    "static/media/spam detector.png": "/shreya-singh-portfolio/static/media/spam detector.5ad77f6a32c593d3abfe.png",
-    "static/media/hcl.png": "/shreya-singh-portfolio/static/media/hcl.9e421498ea3bd8d2d500.png",
-    "static/media/Stars.svg": "/shreya-singh-portfolio/static/media/Stars.8a0c1e35dbdee9d1871f.svg",
-    "static/media/Graph.png": "/shreya-singh-portfolio/static/media/Graph.8e60158abc344cfa8455.png",
-    "static/media/Trees.svg": "/shreya-singh-portfolio/static/media/Trees.6947010d7683924c2b24.svg",
-    "static/media/ReactToastify.css": "/shreya-singh-portfolio/static/media/ReactToastify.d5cfa70352b89f3b70d2.css",
-    "static/media/Silhouette.svg": "/shreya-singh-portfolio/static/media/Silhouette.94098b6d48b79ae2a99d.svg",
-    "static/media/Moon.svg": "/shreya-singh-portfolio/static/media/Moon.b4f3fe5b459b519cfdb9.svg",
-    "index.html": "/shreya-singh-portfolio/index.html",
-    "static/media/envelope.svg": "/shreya-singh-portfolio/static/media/envelope.2da9f9f0571e695cc384.svg",
-    "main.4e486a0c.css.map": "/shreya-singh-portfolio/static/css/main.4e486a0c.css.map",
-    "main.e3e99730.js.map": "/shreya-singh-portfolio/static/js/main.e3e99730.js.map",
-    "453.d2e540b0.chunk.js.map": "/shreya-singh-portfolio/static/js/453.d2e540b0.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.6a8e121d.css",
+    "main.js": "/Portfolio/static/js/main.6c14b900.js",
+    "static/js/453.d2e540b0.chunk.js": "/Portfolio/static/js/453.d2e540b0.chunk.js",
+    "static/media/digital dashboard.png": "/Portfolio/static/media/digital dashboard.8b4f254ce6657ee77217.png",
+    "static/media/BB logo.png": "/Portfolio/static/media/BB logo.e60a29a0c352f8da1ec1.png",
+    "static/media/pinterest clone.png": "/Portfolio/static/media/pinterest clone.5314e98b980fdc7e5f11.png",
+    "static/media/pragati.png": "/Portfolio/static/media/pragati.ce901fa3f33458828ea8.png",
+    "static/media/infosys.png": "/Portfolio/static/media/infosys.7aba4526a72cc6397884.png",
+    "static/media/spam detector.png": "/Portfolio/static/media/spam detector.5ad77f6a32c593d3abfe.png",
+    "static/media/hcl.png": "/Portfolio/static/media/hcl.9e421498ea3bd8d2d500.png",
+    "static/media/Stars.svg": "/Portfolio/static/media/Stars.8a0c1e35dbdee9d1871f.svg",
+    "static/media/Graph.png": "/Portfolio/static/media/Graph.8e60158abc344cfa8455.png",
+    "static/media/Trees.svg": "/Portfolio/static/media/Trees.6947010d7683924c2b24.svg",
+    "static/media/ReactToastify.css": "/Portfolio/static/media/ReactToastify.d5cfa70352b89f3b70d2.css",
+    "static/media/Silhouette.svg": "/Portfolio/static/media/Silhouette.94098b6d48b79ae2a99d.svg",
+    "static/media/Moon.svg": "/Portfolio/static/media/Moon.b4f3fe5b459b519cfdb9.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/envelope.svg": "/Portfolio/static/media/envelope.2da9f9f0571e695cc384.svg",
+    "main.6a8e121d.css.map": "/Portfolio/static/css/main.6a8e121d.css.map",
+    "main.6c14b900.js.map": "/Portfolio/static/js/main.6c14b900.js.map",
+    "453.d2e540b0.chunk.js.map": "/Portfolio/static/js/453.d2e540b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e486a0c.css",
-    "static/js/main.e3e99730.js"
+    "static/css/main.6a8e121d.css",
+    "static/js/main.6c14b900.js"
   ]
 }
