@@ -1,9 +1,10 @@
 // import React from 'react';
 // import Experience from './experience';
 // import './experiences.css'; // Make sure to create a separate CSS for experience section
-// import ExperienceIcon1 from './Images/hcl.png'; // Example icons for experience
-// import ExperienceIcon2 from './Images/infosys.png'; 
-// import ExperienceIcon3 from './Images/pragati.png'; 
+import ExperienceIcon1 from './Images/hcl.png'; // Example icons for experience
+import ExperienceIcon2 from './Images/infosys.png'; 
+import ExperienceIcon3 from './Images/pragati.png'; 
+import ExperienceIcon4 from './Images/BB logo.png';
 
 // const Experience = props => {
 //   return (
@@ -60,14 +61,77 @@
 import React from 'react';
 import Experience from './experience';
 import './experiences.css';
-import Rentalhub from './Images/hcl.png';
-import FreshFruitHub  from './Images/infosys.png';
-import Rentify  from './Images/pragati.png';
-// import infosys  from './Images/infosys.png';
-// import hcl  from './Images/hcl.png';
-// import pragati  from './Images/pragati.png';
 
-const Experiences = props => {
+// Sample experience data
+const experienceData = [
+  {
+    img: ExperienceIcon1,
+    title: "HCL Tech Internship",
+    tech: "python",
+    // link: "https://example.com/sms-spam-detector",
+    // repo: "https://github.com/your-repo/sms-spam-detector",
+    duration: "Nov,2024 - Present",
+    children: (
+      <>
+        <small>Data Analysis Internship. | Nov,2024 - Present</small>
+        <p>
+        "As a data analysis intern at HCL, I am developing a TRAM data analysis project that integrates AI, automation, and analytics to optimize traffic management operations, showcasing my expertise in AI/ML and real-time data processing."
+        </p>
+      </>
+    ),
+  },
+  {
+    img: ExperienceIcon4,
+    title: "AI/ML Mentor",
+    tech: "python react node",
+    // link: "https://example.com/event-manager",
+    // repo: "https://github.com/your-repo/event-manager",
+    duration: "2024 - Present",
+    children: (
+      <>
+        <small>AI/ML Department Event | 2024 - Present</small>
+        <p>
+        Mentored and guided students on AI/ML concepts, helping them develop practical skills and understanding. Contributed to the management of a college-level event with over 600 attendees. Taught and engaged 200 students during a 3-day event, providing hands-on learning experiences and interactive sessions on AI/ML.
+        </p>
+      </>
+    ),
+  },
+  {
+    img: ExperienceIcon3,
+    title: "Pragati Cohort 2 program",
+    tech: "python",
+    // link: "https://example.com/mentor",
+    // repo: "https://github.com/your-repo/mentor",
+    duration: "Jul,2024 - Nov,2024",
+    children: (
+      <>
+        <small>12 week program | Jul,2024 - Nov,2024</small>
+        <p>
+        "Completed a 12-week program at Pragati Infosys, attending lectures on workplace ethics, database management systems (DBMS), and other essential industry topics. This program enhanced my understanding of professional conduct, data management, and best practices in the tech industry."
+        </p>
+      </>
+    ),
+  },
+  {
+    img: ExperienceIcon2,
+    title: "Infosys Sprinboard Internship",
+    tech: "python",
+    // link: "https://example.com/mentor",
+    // repo: "https://github.com/your-repo/mentor",
+    duration: "Oct,2024 - Dec,2024",
+    children: (
+      <>
+        <small>AI/ML Internship | Oct,2024 - Dec,2024</small>
+        <p>
+        "At Infosys, I gained hands-on experience in software development and AI/ML applications. As part of my learning, I built a language translator using MarianMTModel, enabling accurate English-French translations. This project highlights my expertise in NLP and model deployment."
+        </p>
+      </>
+    ),
+  },
+  // Add more experiences as needed
+];
+
+const Experiences = () => {
   return (
     <section id="experiences">
       <div className="experiences-container">
@@ -75,68 +139,26 @@ const Experiences = props => {
           <h3 className="title">My Experiences</h3>
           <p className="separator" />
           <p className="subtitle">
-          Here's a list of the experiences and roles I've taken on.
+           
+             {/* <br></br> */}
           </p>
         </div>
         <div className="experiences-wrapper">
-         
-
-          
-          <Experience
-            title="Infosys Sprinboard Internship"
-            img={FreshFruitHub}
-            tech=""
-            // link="https://fresh-fruit-hub.onrender.com/"
-            // repo="https://github.com/MIHIR2006/Fruit-hub"
-          >
-            <small style={{ color: 'white' }}>
-            AI/ML Internship.
-            </small>
-            <p>
-            "At Infosys, I gained hands-on experience in software development and AI/ML applications. I worked on industry-level projects, enhancing my coding and problem-solving skills. As part of my learning, I built a language translator using MarianMTModel and MarianTokenizer, enabling accurate English-French translations. This project highlights my expertise in NLP and model deployment."
-            </p>
-          </Experience>
-
-          <Experience
-            title="HCL Tech Internship"
-            img={Rentalhub}
-            tech=""
-            link="https://singhshreya-bhriguvanshi.github.io/Mini-Project/current/index.html"
-            repo="https://github.com/singhshreya-bhriguvanshi/Mini-Project"
-          >
-            <small>
-            Data Analysis Internship.
-            </small>
-            <p>
-            "As a data analysis intern at HCL, I work on real-world projects involving data-driven solutions, enhancing my analytical, problem-solving, and technical skills. Additionally, I am developing a TRAM data analysis project that integrates AI, automation, and analytics to optimize tram operations, showcasing my expertise in AI/ML and real-time data processing."
-            </p>
-          </Experience>
-
-          
-          <Experience
-            title="Pragati Cohort 2 program"
-            img={Rentify}
-            tech=""
-            link="https://github.com/singhshreya-bhriguvanshi/Spam-Detector"
-            repo="https://github.com/singhshreya-bhriguvanshi/Spam-Detector"
-          >
-            <small>
-            A 12 week program
-            </small>
-            <p>
-            "Completed a 12-week program at Pragati Infosys, attending lectures on workplace ethics, database management systems (DBMS), and other essential industry topics. This program enhanced my understanding of professional conduct, data management, and best practices in the tech industry."
-            </p>
-          </Experience>
-          
+          {experienceData.map((exp, index) => (
+            <Experience
+              key={index}
+              img={exp.img}
+              title={exp.title}
+              tech={exp.tech}
+              // link={exp.link}
+              // repo={exp.repo}
+              duration={exp.duration}
+            >
+              {exp.children}
+            </Experience>
+          ))}
         </div>
-        
-         
-
-          
-          
-          
-        </div>
-      {/* </div> */}
+      </div>
     </section>
   );
 };

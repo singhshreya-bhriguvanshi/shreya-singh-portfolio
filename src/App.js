@@ -5,7 +5,7 @@ import Nav from './Components/Nav/Nav';
 import Header from './Components/Header/Header';
 import About from './Components/About/About';
 import Projects from './Components/Projects/Projects';
-import Experience from './Components/Experience/experiences';
+import Experiences from './Components/Experience/experiences';
 import Contact from './Components/Contact/Contact';
 import CanvasCursor from './Components/ui/CanvasCursor';
 // import Button from "./Components/Button";
@@ -39,7 +39,7 @@ class App extends Component {
           <Header />
           <About />
           <Projects />
-          <Experience />
+          <Experiences />
           <Contact />
            {/* <Footer/>  */}
         </div>

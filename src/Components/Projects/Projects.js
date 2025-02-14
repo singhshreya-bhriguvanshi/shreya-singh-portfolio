@@ -16,7 +16,7 @@ const Projects = props => {
           <h3 className="title">My Works</h3>
           <p className="separator" />
           <p className="subtitle">
-            Here's a list of the projects I've been working .
+            {/* Here's a list of the projects I've been working . */}
           </p>
         </div>
         <div className="projects-wrapper">
